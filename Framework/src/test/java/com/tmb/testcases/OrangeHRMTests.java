@@ -22,7 +22,7 @@ public final class OrangeHRMTests extends BaseTest{
 
 				clickWelcome().clickLogout()
 
-				.getTitle();
+				.getPageTitle();
 
 		Assertions.assertThat(title)
 

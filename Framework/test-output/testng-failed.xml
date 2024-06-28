@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" parallel="methods" name="Test(failed)">
     <classes>
-      <class name="com.tmb.testcases.HomePageTests">
+      <class name="com.tmb.testcases.OrangeHRMTests">
         <methods>
+          <include name="loginLogoutTest"/>
           <include name="setUp"/>
           <include name="teatDwon"/>
-          <include name="test3"/>
         </methods>
-      </class> <!-- com.tmb.testcases.HomePageTests -->
+      </class> <!-- com.tmb.testcases.OrangeHRMTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
