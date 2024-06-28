@@ -3,14 +3,19 @@ package com.tmb.driver;
 import java.util.Objects;
 
 import org.openqa.selenium.WebDriver;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.tmb.constants.FrameworkConstants;
 
-public class Driver {
 
-	public static WebDriver driver;
+
+public final class Driver {
+
+	private Driver() {
+
+	}
+
+	private static WebDriver driver;
 
 	public static void initDriver() {
 
@@ -19,9 +24,10 @@ public class Driver {
 			System.setProperty("webdriver.chrome.driver",FrameworkConstants.getChromeDriverPath());
 
 			driver=new ChromeDriver();
-			
 
-			driver.get("https://google.com");
+			DriverManager.setDriver(driver);
+
+			DriverManager.getDriver().get("https://google.com");
 
 		}
 
@@ -29,11 +35,11 @@ public class Driver {
 
 	public static void quitDriver() {
 
-		if(Objects.nonNull(driver)) {
+		if(Objects.nonNull(DriverManager.getDriver())) {
 
-			driver.quit();
+			DriverManager.getDriver().quit();
 
-			driver=null;
+			DriverManager.unload();
 
 		}
 
