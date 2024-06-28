@@ -4,8 +4,7 @@
   <test thread-count="2" name="Test" parallel="methods">
     <classes>
       
-      
-      <class name="com.tmb.testcases.HomePageTests"/>
+      <class name="com.tmb.testcases.OrangeHRMTests"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
