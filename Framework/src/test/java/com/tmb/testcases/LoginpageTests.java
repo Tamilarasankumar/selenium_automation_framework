@@ -8,7 +8,6 @@ import com.tmb.driver.DriverManager;
 
 public final class LoginpageTests extends BaseTest{
 
-	
 	private LoginpageTests(){
 
 	}
@@ -18,6 +17,5 @@ public final class LoginpageTests extends BaseTest{
 		DriverManager.getDriver().findElement(By.name("q")).sendKeys("Testing mini bytes",Keys.ENTER);
 	}
 
-	
 
 }
