@@ -5,6 +5,7 @@ import java.util.Objects;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.tmb.constants.FrameworkConstants;
+
 import com.tmb.utils.ReadPropertyFile;
 
 public final class Driver {
@@ -21,7 +22,7 @@ public final class Driver {
 
 			DriverManager.setDriver(new ChromeDriver());
 
-			DriverManager.getDriver().get(ReadPropertyFile.getValue("url"));
+			DriverManager.getDriver().get(ReadPropertyFile.get("url"));
 
 		}
 

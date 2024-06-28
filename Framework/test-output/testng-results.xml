@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-28T13:15:41Z" name="Suite" finished-at="2024-06-28T13:15:46Z" duration-ms="5505">
+  <suite started-at="2024-06-28T13:19:57Z" name="Suite" finished-at="2024-06-28T13:20:01Z" duration-ms="4833">
     <groups>
     </groups>
-    <test started-at="2024-06-28T13:15:41Z" name="Test" finished-at="2024-06-28T13:15:46Z" duration-ms="5505">
+    <test started-at="2024-06-28T13:19:57Z" name="Test" finished-at="2024-06-28T13:20:01Z" duration-ms="4833">
       <class name="com.tmb.testcases.LoginpageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmb.testcases.LoginpageTests@503d687a]" started-at="2024-06-28T13:15:41Z" name="setUp" finished-at="2024-06-28T13:15:46Z" duration-ms="4739" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmb.testcases.LoginpageTests@503d687a]" started-at="2024-06-28T13:19:57Z" name="setUp" finished-at="2024-06-28T13:20:01Z" duration-ms="4222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test2()[pri:0, instance:com.tmb.testcases.LoginpageTests@503d687a]" started-at="2024-06-28T13:15:46Z" name="test2" finished-at="2024-06-28T13:15:46Z" duration-ms="492" status="PASS">
+        <test-method signature="test2()[pri:0, instance:com.tmb.testcases.LoginpageTests@503d687a]" started-at="2024-06-28T13:20:01Z" name="test2" finished-at="2024-06-28T13:20:01Z" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="teatDwon()[pri:0, instance:com.tmb.testcases.LoginpageTests@503d687a]" started-at="2024-06-28T13:15:46Z" name="teatDwon" finished-at="2024-06-28T13:15:46Z" duration-ms="247" status="PASS">
+        <test-method is-config="true" signature="teatDwon()[pri:0, instance:com.tmb.testcases.LoginpageTests@503d687a]" started-at="2024-06-28T13:20:01Z" name="teatDwon" finished-at="2024-06-28T13:20:01Z" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDwon -->
       </class> <!-- com.tmb.testcases.LoginpageTests -->
       <class name="com.tmb.testcases.HomePageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmb.testcases.HomePageTests@6a370f4]" started-at="2024-06-28T13:15:41Z" name="setUp" finished-at="2024-06-28T13:15:46Z" duration-ms="4543" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmb.testcases.HomePageTests@6a370f4]" started-at="2024-06-28T13:19:57Z" name="setUp" finished-at="2024-06-28T13:20:01Z" duration-ms="4000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test3()[pri:0, instance:com.tmb.testcases.HomePageTests@6a370f4]" started-at="2024-06-28T13:15:46Z" name="test3" finished-at="2024-06-28T13:15:46Z" duration-ms="481" status="PASS">
+        <test-method signature="test3()[pri:0, instance:com.tmb.testcases.HomePageTests@6a370f4]" started-at="2024-06-28T13:20:01Z" name="test3" finished-at="2024-06-28T13:20:01Z" duration-ms="480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="teatDwon()[pri:0, instance:com.tmb.testcases.HomePageTests@6a370f4]" started-at="2024-06-28T13:15:46Z" name="teatDwon" finished-at="2024-06-28T13:15:46Z" duration-ms="296" status="PASS">
+        <test-method is-config="true" signature="teatDwon()[pri:0, instance:com.tmb.testcases.HomePageTests@6a370f4]" started-at="2024-06-28T13:20:01Z" name="teatDwon" finished-at="2024-06-28T13:20:01Z" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDwon -->
