@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="teatDwon"/>
-          <include name="test2"/>
+          <include name="test3"/>
         </methods>
       </class> <!-- com.tmb.testcases.HomePageTests -->
     </classes>
