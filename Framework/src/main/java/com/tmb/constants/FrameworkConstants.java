@@ -1,14 +1,23 @@
 package com.tmb.constants;
 
-public class FrameworkConstants {
-	
+public final class FrameworkConstants {
 	private FrameworkConstants() {
 		
 	}
+	private static final String RRESOURCESPATH=System.getProperty("user.dir")+"/src/test/resources";
+	private static final String CHROMEDRIVERPATH=RRESOURCESPATH+"/executables/chromedriver.exe";
+	private static final String CONFIGFILEPATH=RRESOURCESPATH+"/config/config.properties";
 
-	private static final String CHROMEDRIVERPATH=System.getProperty("user.dir")+"/src/test/resources/executables/chromedriver.exe";
-
+	
 	public static String getChromeDriverPath() {
 		return CHROMEDRIVERPATH;
-	};
+	}
+
+
+	
+
+
+	public static String getConfigFilePath() {
+		return CONFIGFILEPATH;
+	}
 }

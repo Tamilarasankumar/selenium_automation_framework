@@ -13,7 +13,7 @@ public final class LoginpageTests extends BaseTest{
 	}
 
 	@Test
-	public void test2() {
+	public void test1() {
 		DriverManager.getDriver().findElement(By.name("q")).sendKeys("Testing mini bytes",Keys.ENTER);
 	}
 
