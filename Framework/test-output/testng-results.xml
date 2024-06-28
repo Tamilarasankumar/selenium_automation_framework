@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-28T12:29:54Z" name="Suite" finished-at="2024-06-28T12:30:06Z" duration-ms="12193">
+    <groups>
+    </groups>
+    <test started-at="2024-06-28T12:29:54Z" name="Test" finished-at="2024-06-28T12:30:06Z" duration-ms="12193">
+      <class name="com.tmb.testcases.LoginpageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmb.testcases.LoginpageTests@4d910fd6]" started-at="2024-06-28T12:29:54Z" name="setUp" finished-at="2024-06-28T12:29:59Z" duration-ms="5908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test1()[pri:0, instance:com.tmb.testcases.LoginpageTests@4d910fd6]" started-at="2024-06-28T12:29:59Z" name="test1" finished-at="2024-06-28T12:30:00Z" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="teatDwon()[pri:0, instance:com.tmb.testcases.LoginpageTests@4d910fd6]" started-at="2024-06-28T12:30:00Z" name="teatDwon" finished-at="2024-06-28T12:30:00Z" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDwon -->
+      </class> <!-- com.tmb.testcases.LoginpageTests -->
+      <class name="com.tmb.testcases.HomePageTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmb.testcases.HomePageTests@26275bef]" started-at="2024-06-28T12:30:00Z" name="setUp" finished-at="2024-06-28T12:30:05Z" duration-ms="4598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test3()[pri:0, instance:com.tmb.testcases.HomePageTests@26275bef]" started-at="2024-06-28T12:30:05Z" name="test3" finished-at="2024-06-28T12:30:05Z" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="teatDwon()[pri:0, instance:com.tmb.testcases.HomePageTests@26275bef]" started-at="2024-06-28T12:30:05Z" name="teatDwon" finished-at="2024-06-28T12:30:06Z" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatDwon -->
+      </class> <!-- com.tmb.testcases.HomePageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
